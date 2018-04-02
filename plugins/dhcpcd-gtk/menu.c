@@ -154,7 +154,8 @@ get_security_icon(unsigned int flags, const char **icon)
 		if (flags & WSF_PSK)
 			*icon = "network-wireless-encrypted";
 		else {
-			*icon = "network-error";
+			//*icon = "network-error";
+			*icon = "network-wireless-encrypted";
 			active = false;
 		}
 	} else
