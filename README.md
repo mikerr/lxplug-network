@@ -11,6 +11,4 @@ configure
 
 make
 
-make install
-
 sudo cp plugins/.libs/dhcpdui.so /usr/lib/arm-linux-gnueabihf/lxpanel/plugins
